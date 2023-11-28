@@ -14,8 +14,8 @@ client.on('ready', () => {
 
 client.on('message', message => {
 	console.log(`Llego hasta aqui`);
-  const sourceChannelID = '697814297098846240'; // Reemplaza con el ID del canal de origen
-  const botChannelID = '818925124484333581'; // Reemplaza con el ID del canal donde está el bot
+  const sourceChannelID = 'ORIGIN_CHANNEL'; // Reemplaza con el ID del canal de origen
+  const botChannelID = 'DEST_CHANNEL'; // Reemplaza con el ID del canal donde está el bot
 
   console.log(`Mensaje recibido en el canal: ${message.channel.id}`); // Para verificar el canal del mensaje
 
@@ -35,4 +35,4 @@ client.on('message', message => {
 
 client.on('error', console.error); 
 
-client.login('MTE3ODY5ODM3MTU2MTcwNTU5Mg.G0ZK6I.a1jGrzMxO9zWIdAj2YgqST-HedBIvrpGycqu9Q');
+client.login('TOKEN_BOT');

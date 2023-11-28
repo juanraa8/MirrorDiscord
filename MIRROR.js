@@ -34,4 +34,4 @@ client.on('message', message => {
 
 client.on('error', console.error); 
 
-client.login('TOKEN_BOT');
+client.login('TOKEN_BOT'); //Reemplaza con el token de tu bot

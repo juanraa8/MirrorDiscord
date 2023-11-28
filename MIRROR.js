@@ -13,7 +13,6 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-	console.log(`Llego hasta aqui`);
   const sourceChannelID = 'ORIGIN_CHANNEL'; // Reemplaza con el ID del canal de origen
   const botChannelID = 'DEST_CHANNEL'; // Reemplaza con el ID del canal donde está el bot
 
